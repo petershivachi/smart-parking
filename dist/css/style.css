@@ -66,6 +66,11 @@
   color: #333;
 }
 
+.btn-dark {
+  background: var(--dark-clor);
+  color: #fff;
+}
+
 /* Backgrounds */
 .bg-dark {
   background-color: var(--dark-clor);
@@ -75,6 +80,11 @@
 .bg-light {
   background-color: var(--light-color);
   color: #333;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 /* Padding */
@@ -221,6 +231,7 @@ a {
   background: #fff;
   margin: 0 1rem;
   border: 1px dashed #aaa;
+  border-radius: 5px;
 }
 
 #features .items .item i{
@@ -251,4 +262,32 @@ a {
 
 #why .why-content h3{
   margin-top: 0.5rem;
+}
+
+
+/* Contact Form */
+#contacts {
+  display: flex;
+}
+
+#contacts div {
+  flex: 1;
+}
+
+#contacts .contacts-form .form-group {
+  margin: 1.5rem;
+}
+
+#contacts .contacts-form .form-group label {
+  display: block;
+}
+
+#contacts .contacts-form .form-group input{
+  padding: 0.5rem;
+  width: 100%;
+  border: #eee solid 1px;
+}
+
+#contacts .contacts-form .form-group input:focus{
+  outline: none;
 }
