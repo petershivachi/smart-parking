@@ -4,7 +4,7 @@
 
 :root {
   --dark-clor: #333;
-  --light-color: #f4f4f4;
+  --light-color: #f3f3f3;
   --primary-color: #00ff73;
   --secondary-color: #00ff73a9;
 }
@@ -46,6 +46,10 @@
   margin-bottom: 0.4rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Button */
 .btn {
   display: inline-block;
@@ -60,6 +64,33 @@
 .btn-primary {
   background-color: var(--primary-color);
   color: #333;
+}
+
+/* Backgrounds */
+.bg-dark {
+  background-color: var(--dark-clor);
+  color: #fff;
+}
+
+.bg-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/* Padding */
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+/* List */
+.list {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.list li {
+  border-bottom: #777 1px dotted;
+  margin: 0.5rem 0;
 }
 
 /*General Styles  */
@@ -113,15 +144,27 @@ a {
   background: #444 url(../img/showcase.jpg)no-repeat center center/cover;
   color: #fff;
   height: 100vh;
-  padding-top: 200px;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  padding-top: 0 2rem;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
   /* Overlay */
   position: absolute;
   top: 60px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+#showcase .showcase-content h1 {
+  padding-bottom: 0.75re;
 }
 
 #showcase .showcase-content p {
@@ -159,4 +202,53 @@ a {
   font-weight: bolder;
   border-radius: 5px;
   color: #333;
+}
+
+#showcase .showcase-form .form input:focus,
+#showcase .showcase-form .form select:focus {
+  outline: none;
+}
+
+/* features */
+#features .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#features .items .item {
+  display: flex;
+  padding: 2rem;
+  background: #fff;
+  margin: 0 1rem;
+  border: 1px dashed #aaa;
+}
+
+#features .items .item i{
+  background-color: var(--primary-color);
+  padding: 1rem;
+  align-self: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+
+/* Why */
+#why{
+  display: flex;
+}
+
+#why div {
+  flex: 1;
+}
+
+#why .why-img {
+  background: #444 url(../img/why.jpg)no-repeat center center/cover;
+}
+
+#why .why-content {
+  padding: 2rem;
+}
+
+#why .why-content h3{
+  margin-top: 0.5rem;
 }
