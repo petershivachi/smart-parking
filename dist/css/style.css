@@ -6,7 +6,7 @@
   --dark-clor: #333;
   --light-color: #f3f3f3;
   --primary-color: #00ff73;
-  --secondary-color: #00ff73a9;
+  --secondary-color: #005180;
 }
 
 /* Utilities */
@@ -14,7 +14,7 @@
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 0 2rem;
+  padding: 0 0.5rem;
   overflow: hidden;
 }
 
@@ -71,6 +71,11 @@
   color: #fff;
 }
 
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
 /* Backgrounds */
 .bg-dark {
   background-color: var(--dark-clor);
@@ -80,6 +85,11 @@
 .bg-light {
   background-color: var(--light-color);
   color: #333;
+}
+
+.bg-secondary {
+  background: var(--secondary-color);
+  color: #fff;
 }
 
 .bg-primary {
@@ -227,10 +237,10 @@ a {
 
 #features .items .item {
   display: flex;
-  padding: 2rem;
-  background: #fff;
+  padding: 0.75rem;
+  /* background: #fff; */
   margin: 0 1rem;
-  border: 1px dashed #aaa;
+  /* border: 1px dashed #aaa; */
   border-radius: 5px;
 }
 
@@ -290,4 +300,102 @@ a {
 
 #contacts .contacts-form .form-group input:focus{
   outline: none;
+}
+
+/* Booking */
+#booking .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .logo {
+  padding: 1rem 0;
+}
+
+#footer .list li a {
+  color: #fff;
+}
+
+#footer .contact div {
+  padding: 0.5rem;
+}
+
+#footer .contact div p {
+  margin: 0.5rem 0;
+}
+
+/* Features */
+#attributes .container,
+#details .container {
+  background: #fff;
+  padding: 2rem 0;
+}
+
+#attributes .container .items,
+#details .container .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#attributes .container .items .item,
+#details .container .items .item {
+  display: flex;
+  padding: 0.75rem;
+  margin: 0 1rem; 
+}
+
+#attributes .container .items .item i{
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  color: #fff;
+  align-self: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+
+/* Glance */
+#glance  {
+  display: flex;
+}
+
+#glance .glance-img,
+#glance .glance-content {
+  flex: 1;
+}
+
+#glance .glance-img{
+  background: url('../img/glance.jpg')no-repeat center center/cover;
+}
+
+#glance .glance-content {
+  padding: 1rem;
+}
+
+#glance .glance-content h2 {
+  margin: 0.5rem 0;
+}
+
+#glance .glance-content p {
+  margin: 0.5rem 0;
+}
+
+/* details */
+#details h2 {
+  padding-bottom: 1rem;
+}
+
+#details .container .items .item i{
+  background-color: var(--light-color);
+  padding: 1rem;
+  color: #333;
+  align-self: center;
+  margin-right: 1rem;
+  border-radius: 50%;
 }
