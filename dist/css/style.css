@@ -27,6 +27,10 @@
   color: var(--primary-color);
 }
 
+.text-secondary {
+  color: var(--secondary-color);
+}
+
 /* Text sizes */
 .l-heading {
   font-size: 4rem;
@@ -398,4 +402,104 @@ a {
   align-self: center;
   margin-right: 1rem;
   border-radius: 50%;
+}
+
+/* Options */
+/* Banner */
+#banner {
+  position: relative;
+  background: url('../img//options.jpg')no-repeat center center/cover;
+  color: #fff;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+#banner .period {
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-color);
+  width: 300px;
+  padding: 0.5rem 2.5rem;
+  margin: 1rem 0rem;
+}
+
+#banner .period p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#banner .period p a:hover {
+  border-bottom: #fff solid 3px;
+} 
+
+#banner .location form .form-group{
+  background-color: #fff;
+  color: #333;
+  width: 400px;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#banner .location form .form-group label {
+  display: block;
+}
+
+#banner .location form .form-group input {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+}
+
+#banner .location form .form-group input:focus {
+  outline: none;
+}
+
+/* Selection */
+#selection .items {
+  display: flex;
+}
+
+#selection .items .item {
+  padding: 2rem;
+  background: var(--light-color);
+  margin: 0.5rem;
+}
+
+#selection .items .item h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Pricing */
+#pricing .items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+#pricing .items .item {
+  height: 300px;
+  padding: 0.75rem 3rem;
+  align-items: center;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#pricing .items .item ul {
+  list-style: none;
+  margin: 0.5rem 0;
+} 
+
+#pricing .items .item ul li {
+  margin: 0.5rem 0;
+}
+
+#pricing h3 {
+  margin: 0.5rem 0;
+}
+
+#pricing h2 {
+  margin: 0.5rem 0;
 }
