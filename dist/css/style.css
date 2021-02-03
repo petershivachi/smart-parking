@@ -503,3 +503,68 @@ a {
 #pricing h2 {
   margin: 0.5rem 0;
 }
+
+/* Location */
+#location-header {
+  background: url('../img/location.jpg')no-repeat center center/cover;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+#location-header h1 {
+  padding-top: 200px;
+}
+#location-header h1 a {
+  color: #fff;
+}
+
+/* Question */
+#location .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+#location .container .contact-info,
+#location .container .question {
+  flex: 1;
+  margin: 1rem;
+}
+
+#location .container .contact-info {
+  padding: 1rem;
+  border: 1px #eee solid;
+  text-align: center;
+  color: #333;
+}
+
+#location .container .contact-info div{
+  padding: 1rem;
+}
+
+#location .container .question {
+  padding: 1rem;
+  border: 1px #eee solid;
+  color: #333;
+}
+
+#location .container .question .form-group {
+  margin: 0.5rem 0;
+}
+
+#location .container .question label {
+  display: block;
+}
+
+#location .container .question .form-group input,
+#location .container .question .form-group textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px #aaa solid;
+}
+
+#location .container .question .form-group input:focus,
+#location .container .question .form-group textarea:focus {
+  outline: none;
+}
