@@ -1,0 +1,141 @@
+@media (max-width: 500px){
+  #navbar .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #container .logo {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  #navbar .container ul {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+
+  #navbar ul li {
+    border-bottom: 1px dotted #eee;
+  }
+
+  #showcase .showcase-content {
+    top: 110px;
+  }
+
+  #showcase .showcase-content .showcase-text h1 {
+    font-size: 2rem;
+  }
+
+  #showcase .showcase-content .showcase-content p {
+    font-size: 1.5rem;
+    line-height: 1.1rem;
+  }
+
+  #showcase .showcase-form{
+    display: none;
+  }
+
+  #features .container .items{
+    display: block;
+    padding: 1rem;
+  }
+
+  #features .container .items .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #why {
+    flex-direction: column;
+  }
+
+  #why .why-img {
+    display: none;
+  }
+
+  #contacts {
+    flex-direction: column;
+  }
+
+  #contacts .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
+
+  #booking .container {
+    flex-direction: column;
+  }
+
+  #footer .container {
+    flex-direction: column;
+  }
+
+  #attributes .container .items,
+  #details .container .items,
+  #selection .container .items,
+  #pricing .container .items {
+    flex-direction: column;
+  }
+
+  #attributes .container .items .item,
+  #details .container .items .item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #attributes .container .items .item i,
+  #details .container .items .item i{
+    margin-bottom: 0.5rem 0;
+  }
+
+  #selection .container .items .item,
+  #pricing .container .items .item {
+    text-align: center;
+  }
+
+  #pricing .container .items .item {
+    margin-bottom: 1rem
+  }
+
+  #glance .glance-img{
+    display: none;
+  }
+
+  #banner .container .location {
+    align-items: center;
+  }
+
+  #banner .container .location .form-group {
+    width: auto;
+  }
+
+  #location .container {
+    flex-direction: column;
+  }
+
+
+  #location .container .contact-info {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #location .container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-height: 568px){
+  #showcase .showcase-content {
+    margin-top: -4rem;
+    top: 140px;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}

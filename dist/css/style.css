@@ -282,9 +282,6 @@ a {
 /* Contact Form */
 #contacts {
   display: flex;
-}
-
-#contacts div {
   flex: 1;
 }
 
@@ -480,7 +477,7 @@ a {
 
 #pricing .items .item {
   height: 300px;
-  padding: 0.75rem 3rem;
+  padding: 0.5rem 3rem;
   align-items: center;
   align-content: center;
   border-radius: 10px;
