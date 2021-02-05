@@ -55,7 +55,8 @@
   }
 
   #contacts {
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: block;
   }
 
   #contacts .map {
