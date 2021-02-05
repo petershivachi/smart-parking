@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://peter123:peter123@parkingmanagement.bnjaq.mongodb.net/SmartParking?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://peter123:peter123@parkingmanagement.bnjaq.mongodb.net/SmartParking?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
